@@ -1,6 +1,7 @@
 import React from "react";
 import APITester from "./components/APITester";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const App: React.FC = () => {
   return (
@@ -8,8 +9,9 @@ const App: React.FC = () => {
       <header className="App-header">
         <Navbar />
         {/* <h1 className="text-3xl font-bold mb-4">CRUD Boy</h1> */}
-        <APITester />
       </header>
+      <APITester />
+      <Footer />
     </div>
   );
 };
